@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: inline;
+      }
+      header {
+        background-color: black;
+        color: white;
+        height: 30px;
+      }
+      p {
+        text-align: center;
+        border: 3px solid green;
+      }
+      .container {
+        background-color: aqua;
+        height: 50vh;
+        width: 50vw;
+        margin: auto;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+        position: absolute;
+      }
+      .box2 {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(161, 42, 165, 0.692);
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        dignissimos cupiditate beatae dicta praesentium sunt tenetur possimus,
+        amet labore temporibus corporis minima ducimus deserunt officiis.
+        Doloremque quis tempora dicta modi labore ipsam doloribus libero?
+      </p>
+      <div class="box">I am a box.</div>
+      <div class="box2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+        excepturi quis eius veritatis non ullam fuga placeat incidunt,
+        perferendis, modi doloremque fugit eligendi quibusdam eaque accusantium
+        consequatur sint sapiente, maxime minus blanditiis! Esse, veritatis.
+      </div>
+    </div>
+  </body>
+</html>
