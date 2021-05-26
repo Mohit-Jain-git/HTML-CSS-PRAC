@@ -22,8 +22,9 @@ nav{
   text-transform: uppercase;
 }
 nav .logo{
-   width: 25%;
-   text-align: center;
+   width: 30%;
+   display: flex;
+   text-align: center;;
 }
 nav .menu{
     width: 40%;
